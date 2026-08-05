@@ -1,4 +1,4 @@
-# P1-SPK-TKJ-Guide
+<img width="523" height="433" alt="image" src="https://github.com/user-attachments/assets/f1e87416-a6f9-4eb1-bbb2-8df7f7d68a46" /><img width="523" height="433" alt="image" src="https://github.com/user-attachments/assets/e9684f12-369f-4cb6-a9bd-aa4809aa891b" /># P1-SPK-TKJ-Guide
 
 ### Hello World
 
@@ -73,6 +73,21 @@ And match this configuration for adding a Mikrotik 24 Port Switch.
 
 And save it!
 
+### Step 3
 
+<img width="604" height="342" alt="image" src="https://github.com/user-attachments/assets/d653d229-60fc-4bc7-af02-a6fe6916bdb8" />
 
+Now you have a Switch and Router, we'll add 5 PC, 1 Internet Node, and 1 Server Node.
+
+<img width="508" height="550" alt="image" src="https://github.com/user-attachments/assets/95e1d2b8-814a-4ea4-abb2-c9c1b3e199fb" />
+
+Right click then choose add node, and choose `VPCS`
+
+<img width="1303" height="384" alt="image" src="https://github.com/user-attachments/assets/75c7b168-ef34-4b9b-bc5f-73d279c01dc6" />
+
+No need to configure the PC on here, just set the number of nodes to add to 5, and just straight up save it.
+
+<img width="903" height="617" alt="image" src="https://github.com/user-attachments/assets/86913f48-258e-4018-b5c7-cbda61e3b79d" />
+
+Save!
 
