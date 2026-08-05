@@ -1,5 +1,3 @@
-<img width="523" height="433" alt="image" src="https://github.com/user-attachments/assets/f1e87416-a6f9-4eb1-bbb2-8df7f7d68a46" /><img width="523" height="433" alt="image" src="https://github.com/user-attachments/assets/e9684f12-369f-4cb6-a9bd-aa4809aa891b" /># P1-SPK-TKJ-Guide
-
 ### Hello World
 
 In this repository you can learn and use this as your material or practice reference for completing `P1-SPK-TKJ`, P1 contain a task to make a LAN network environtment consist of Server, Client Devices, Switch, Router then connect it into Internet. We also need to set up a monitoring tools on the server to monitor the activity in network, a Web Server so client devices can access the server through web, and we'll also try to find the vulnerabilities of this network.
