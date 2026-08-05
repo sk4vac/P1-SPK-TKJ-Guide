@@ -38,3 +38,23 @@ Login to the PNETLab Web with the IP, e.g. my IP is `192.168.90.128`
 <img width="1366" height="734" alt="image" src="https://github.com/user-attachments/assets/04bc6181-80c5-45bb-b1f3-944994223536" />
 
 Create a new topology file
+
+### Step 4
+
+<img width="707" height="437" alt="image" src="https://github.com/user-attachments/assets/3d6053d6-08ba-4ff1-b356-41c8d22f3468" />
+
+Add your first Node, by Right Click and choose `Node`, then choose MikroTik RouterOS
+
+<img width="1366" height="523" alt="image" src="https://github.com/user-attachments/assets/617bc9cd-4ebe-4ee8-b86f-d9339236ba36" />
+
+And Match this Configuration for adding a MikroTik 4 Port Router
+
+<img width="901" height="629" alt="image" src="https://github.com/user-attachments/assets/d5e05f3f-5118-42ed-a497-a5f649a75d72" />
+
+<img width="897" height="650" alt="image" src="https://github.com/user-attachments/assets/b11fa166-36ab-45bb-9db6-588f3fab4fed" />
+
+<img width="901" height="619" alt="image" src="https://github.com/user-attachments/assets/253e3951-f395-49c0-9461-2474edf359f2" />
+
+And Save it!
+
+
