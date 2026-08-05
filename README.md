@@ -22,3 +22,19 @@ For this one I'll be using Ubuntu Server first
 <img width="1366" height="738" alt="image" src="https://github.com/user-attachments/assets/aa1c9a3a-8519-46b4-97c4-bec67a7f5a72" />
 
 Power on all your VM, the PNETLab and the Ubuntu Server
+
+### Step 2
+
+<img width="1366" height="737" alt="image" src="https://github.com/user-attachments/assets/5d741124-e4e0-4037-9693-ba48461683c2" />
+
+<img width="1366" height="741" alt="image" src="https://github.com/user-attachments/assets/43f257cd-fce4-4b25-9861-ede1948e71f0" />
+
+Login to the PNETLab Web with the IP, e.g. my IP is `192.168.90.128`
+
+### Step 3
+
+<img width="1366" height="731" alt="image" src="https://github.com/user-attachments/assets/11cf0ee4-4017-4acc-b743-ab433c6a7956" />
+
+<img width="1366" height="734" alt="image" src="https://github.com/user-attachments/assets/04bc6181-80c5-45bb-b1f3-944994223536" />
+
+Create a new topology file
