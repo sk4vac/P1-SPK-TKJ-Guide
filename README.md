@@ -31,11 +31,11 @@ Login to the PNETLab Web with the IP, e.g. my IP is `192.168.90.128`
 
 ### Step 3
 
+Create a new topology file
+
 <img width="1366" height="731" alt="image" src="https://github.com/user-attachments/assets/11cf0ee4-4017-4acc-b743-ab433c6a7956" />
 
 <img width="1366" height="734" alt="image" src="https://github.com/user-attachments/assets/04bc6181-80c5-45bb-b1f3-944994223536" />
-
-Create a new topology file
 
 ### Step 4
 
@@ -55,7 +55,7 @@ And Match this Configuration for adding a MikroTik 4 Port Router
 
 And Save it!
 
-### Step 3
+### Step 5
 
 Now let's add the switch by right click then choose node, and choose Mikrotik RouterOS.
 
@@ -71,7 +71,7 @@ And match this configuration for adding a Mikrotik 24 Port Switch.
 
 And save it!
 
-### Step 3
+### Step 6
 
 Now you have a Switch and Router, we'll add 5 PC, 1 Internet Node, and 1 Server Node.
 
