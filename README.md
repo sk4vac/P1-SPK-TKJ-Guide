@@ -130,3 +130,19 @@ Switch (ETH8) - Server (ETH0)
 <img width="858" height="612" alt="image" src="https://github.com/user-attachments/assets/ca6600ce-2c0f-49e1-9c10-e3c92aeffcd3" />
 
 Cable set, and we ready to go to next chapter!
+
+## Chapter 2: Configure the Devices
+
+### Step 1
+
+Let's start configuring the router first 
+
+Configuring Vlan
+
+`/interface vlan`
+
+`add name=vlan10-Guru vlan-id=10 interface=ether2`
+
+`add name=vlan20-Siswa vlan-id=20 interface=ether2`
+
+`add name=vlan30-Server vlan-id=30 interface=ether2`
