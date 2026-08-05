@@ -9,7 +9,16 @@ In this repository you can learn and use this as your material or practice refer
 1. Understanding of
 2. VMWare
 3. PNETLab
-4. Ubuntu Debian / Debian Server
+4. Ubuntu Server / Debian Server
+
+For this one I'll be using Ubuntu Server first
 
 ## Chapter 1: Set Up Lab, Devices and Cabeling
 
+### Step 1
+
+<img width="1366" height="736" alt="image" src="https://github.com/user-attachments/assets/61f54c9e-8063-40b9-9bf8-3e6aa8d0782f" />
+
+<img width="1366" height="738" alt="image" src="https://github.com/user-attachments/assets/aa1c9a3a-8519-46b4-97c4-bec67a7f5a72" />
+
+Power on all your VM, the PNETLab and the Ubuntu Server
