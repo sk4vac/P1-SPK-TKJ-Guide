@@ -88,3 +88,45 @@ No need to configure the PC on here, just set the number of nodes to add to 5, a
 <img width="903" height="617" alt="image" src="https://github.com/user-attachments/assets/86913f48-258e-4018-b5c7-cbda61e3b79d" />
 
 Save!
+
+### Step 7
+
+We have 5 PC, 1 Router, and 1 Switch.
+Now let's add Network Node for Internet and Ubuntu Server.
+Right click and choose `Network`
+
+<img width="825" height="443" alt="image" src="https://github.com/user-attachments/assets/35fbbe27-13a3-4afc-a77e-b33ee8bf4cd8" />
+
+We'll add Network Node for Internet first, match this configuration!
+
+<img width="596" height="491" alt="image" src="https://github.com/user-attachments/assets/e0e670a2-1c86-4867-adfb-c3050a242f3b" />
+
+Then we'll add Network Node for Ubuntu Server, match this configuration!
+
+<img width="593" height="487" alt="image" src="https://github.com/user-attachments/assets/30daab05-3359-4995-a048-fad2f1651f8e" />
+
+Now we already added all the devices required.
+
+<img width="818" height="366" alt="image" src="https://github.com/user-attachments/assets/fd6c21d0-a3a7-49e9-b8ee-ba8bf62feab2" />
+
+### Step 8
+
+Now we need to connect all of this with a cable.
+
+<img width="797" height="571" alt="image" src="https://github.com/user-attachments/assets/bc8a6b3b-4085-4179-b126-1555f95ab665" />
+
+Let's add the cabble!
+
+<img width="360" height="202" alt="ay6nmw" src="https://github.com/user-attachments/assets/98e5f69a-3f30-4855-9b3b-11476bc40c69" />
+
+Internet (ETH1) - Router (ETH1)
+
+Router (ETH2) - Switch (ETH1)
+
+Switch (ETH2-6) - PC (ETH0)
+
+Switch (ETH8) - Server (ETH0)
+
+<img width="858" height="612" alt="image" src="https://github.com/user-attachments/assets/ca6600ce-2c0f-49e1-9c10-e3c92aeffcd3" />
+
+Cable set, and we ready to go to next chapter!
