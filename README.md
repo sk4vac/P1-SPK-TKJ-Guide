@@ -57,4 +57,22 @@ And Match this Configuration for adding a MikroTik 4 Port Router
 
 And Save it!
 
+### Step 3
+
+<img width="662" height="479" alt="image" src="https://github.com/user-attachments/assets/7a26cefe-3970-43fe-ad4d-226b979689e6" />
+
+Now let's add the switch by right click then choose node, and choose Mikrotik RouterOS.
+
+And match this configuration for adding a Mikrotik 24 Port Switch.
+
+<img width="899" height="625" alt="image" src="https://github.com/user-attachments/assets/6293edb3-44db-4d3f-b935-43e1897e3f70" />
+
+<img width="901" height="648" alt="image" src="https://github.com/user-attachments/assets/9a07a927-e95c-49e7-9947-68b83c17cb27" />
+
+<img width="895" height="199" alt="image" src="https://github.com/user-attachments/assets/8a437696-71d4-47e2-8d51-58a9044a7be7" />
+
+And save it!
+
+
+
 
