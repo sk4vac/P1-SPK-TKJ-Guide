@@ -200,3 +200,33 @@ SET SNMP
 `set [ find default=yes ] name=public write-access=no`
 
 `/snmp set enabled-yes`
+
+### Step 2
+
+Next we configure the firewall on the Router
+
+Allow VLAN 30 to VLAN 10
+
+`/ip firewall filter`
+
+`add chain=forward src-address=192.168.30.0/24 dst-address=192.168.10.0/24 action=accept comment="Allow VLAN 30 to VLAN 10"`
+
+Block VLAN 20 to VLAN 10
+
+`/ip firewall filter`
+
+`add chain=forward src-address=192.168.20.0/24 dst-address=192.168.10.0/24 action=drop comment="Block VLAN 20 to VLAN 10"`
+
+Brute Force Protection
+
+`/ip firewall filter`
+
+`add chain=input protocol=tcp dst-port=22,8291 src-address-list=ftp_stage3 action=add-src-to-address-list address-list=black_list address-list-timeout=1d comment="Drop Brute Force Attackers"`
+
+`add chain=input protocol=tcp dst-port=22,8291 src-address-list=ftp_stage2 action=add-src-to-address-list address-list=ftp_stage3 address-list-timeout=1m`
+
+`add chain=input protocol=tcp dst-port=22,8291 src-address-list=ftp_stage1 action=add-src-to-address-list address-list=ftp_stage2 address-list-timeout=1m`
+
+`add chain=input protocol=tcp dst-port=22,8291 action=add-src-to-address-list address-list=ftp_stage1 address-list-timeout=1m`
+
+`add chain=input src-address-list=black_list action=drop comment="Drop Blacklisted IP"`
