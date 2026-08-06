@@ -146,3 +146,57 @@ Configuring Vlan
 `add name=vlan20-Siswa vlan-id=20 interface=ether2`
 
 `add name=vlan30-Server vlan-id=30 interface=ether2`
+
+Configuring IP Address Gateway
+
+`/ip address`
+
+`add address=192.168.10.1/24 interface=vlan10-Guru`
+
+`add address=192.168.20.1/24 interface=vlan20-Siswa`
+
+`add address=192.168.30.1/24 interface=vlan30-Server`
+
+Request DHCP From ISP
+
+`/ip dhcp-client`
+
+`add interface=ether1 disabled=no`
+
+Create IP Pool For Vlan 10 20
+
+`/ip pool`
+
+`add name=pool-vlan10 range=192.168.10.10-192.168.10.250`
+
+`add name=pool-vlan20 range=192.168.20.10-192.168.20.250`
+
+Create DHCP Server
+
+`/ip dhcp-server`
+
+`add name=dhcp-vlan10 interface=vlan10-Guru address-pool=pool-vlan10 disabled=no`
+
+`add name=dhcp-vlan20 interface=vlan20-Siswa address-pool=pool-vlan20 disabled=no`
+
+Network & DNS
+
+`/ip dhcp-server network`
+
+`add address=192.168.10.0/24 gateway=192.168.10.1 dns-server=192.168.30.10`
+
+`add address=192.168.20.0/24 gateway=192.168.20.1 dns-server=192.168.30.10`
+
+NAT To INTERNET
+
+`/ip firewall nat`
+
+`add chain=srcnat out-interface=ether1 action=masquerade`
+
+SET SNMP
+
+`/snmp comunity`
+
+`set [ find default=yes ] name=public write-access=no`
+
+`/snmp set enabled-yes`
