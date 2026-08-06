@@ -230,3 +230,17 @@ Brute Force Protection
 `add chain=input protocol=tcp dst-port=22,8291 action=add-src-to-address-list address-list=ftp_stage1 address-list-timeout=1m`
 
 `add chain=input src-address-list=black_list action=drop comment="Drop Blacklisted IP"`
+
+Secure Router Access
+
+`/ip service`
+
+`set winbox address=192.168.10.0/24,192.168.30.0/24 disabled=no`
+
+`set ssh address=192.168.10.0/24,192.168.30.0/24 disabled=no`
+
+Activity LOG
+
+`/ip firewall filter`
+
+`add chain=input action=log log-prefix="UNAUTHORIZED_ACCESS: " src-address-list=!black_list comment="Log Unauthorized Access"`
